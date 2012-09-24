@@ -1,0 +1,11 @@
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\GraphicalVersion.Form1.resources
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\GraphicalVersion.Properties.Resources.resources
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\ResGen.read.1.tlog
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\ResGen.write.1.tlog
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\bin\Debug\GraphicalVersion.exe
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\bin\Debug\GraphicalVersion.pdb
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\bin\Debug\snp-convert.exe
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\bin\Debug\snp-convert.pdb
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\GraphicalVersion.exe
+d:\Jervis\Documents\Visual Studio 2010\Projects\Snp To PDF Converter\GraphicalVersion\obj\x86\Debug\GraphicalVersion.pdb
