@@ -1,0 +1,6 @@
+D:\code\C#\MS-Access-SNP-To-PDF-Converter\ConsoleVersion\Snp2PdfConverter\bin\Debug\Snp2PdfConverter.exe.config
+D:\code\C#\MS-Access-SNP-To-PDF-Converter\ConsoleVersion\Snp2PdfConverter\bin\Debug\Snp2PdfConverter.exe
+D:\code\C#\MS-Access-SNP-To-PDF-Converter\ConsoleVersion\Snp2PdfConverter\bin\Debug\Snp2PdfConverter.pdb
+D:\code\C#\MS-Access-SNP-To-PDF-Converter\ConsoleVersion\Snp2PdfConverter\obj\Debug\Snp2PdfConverter.csprojResolveAssemblyReference.cache
+D:\code\C#\MS-Access-SNP-To-PDF-Converter\ConsoleVersion\Snp2PdfConverter\obj\Debug\Snp2PdfConverter.exe
+D:\code\C#\MS-Access-SNP-To-PDF-Converter\ConsoleVersion\Snp2PdfConverter\obj\Debug\Snp2PdfConverter.pdb
