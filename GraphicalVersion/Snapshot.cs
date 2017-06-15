@@ -102,10 +102,12 @@ namespace GraphicalVersion
         public static bool convertToPDF(string uncompressedSnapshotName)
         {
             string outputPDF = Path.GetFileNameWithoutExtension(uncompressedSnapshotName) + ".pdf";
+            string dummyPDF = Path.GetFileNameWithoutExtension(uncompressedSnapshotName) + "_dummy.pdf";
             bool r = false;
             try
             {
                 r = ConvertUncompressedSnapshot(uncompressedSnapshotName, outputPDF, 0, "", "", 0, 0, 0);
+                r = MergePDFDocuments(outputPDF, dummyPDF);
             }
             catch (DllNotFoundException)
             {
@@ -150,5 +152,16 @@ namespace GraphicalVersion
                                                                long PDFNoFontEmbedding,
                                                                long PDFUnicodeFlags);
 
+         /*
+         * ConvertUncompressedSnapshot function will produce a Secured PDF with random restrictions
+         * 
+         * This is a known issue.  A workaround is to call the MergePDFDocuments function as using this will
+         * remove the security
+         * 
+         */
+      
+        [DllImport("StrStorage.dll")]
+        public static extern bool MergePDFDocuments(String firstPDF, String secondPDF);
+        
     }
 }
