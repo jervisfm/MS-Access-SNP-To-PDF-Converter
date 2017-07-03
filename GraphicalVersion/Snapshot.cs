@@ -102,6 +102,11 @@ namespace GraphicalVersion
         public static bool convertToPDF(string uncompressedSnapshotName)
         {
             string outputPDF = Path.GetFileNameWithoutExtension(uncompressedSnapshotName) + ".pdf";
+            
+            /*
+             * The following string contains a path to a PDF file which doesn't exist
+             * This is used in the MergePDFDocuments function below
+             */
             string dummyPDF = Path.GetFileNameWithoutExtension(uncompressedSnapshotName) + "_dummy.pdf";
             bool r = false;
             try
