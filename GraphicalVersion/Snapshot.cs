@@ -112,6 +112,13 @@ namespace GraphicalVersion
             try
             {
                 r = ConvertUncompressedSnapshot(uncompressedSnapshotName, outputPDF, 0, "", "", 0, 0, 0);
+                /*
+                 * ConvertUncompressedSnapshot function will produce a Secured PDF with random restrictions
+                 * 
+                 * This is a known issue.  A workaround is to call the MergePDFDocuments function using a
+                 * PDF that doesn't exist, as this will remove the security from the created PDF
+                 * 
+                 */
                 r = MergePDFDocuments(outputPDF, dummyPDF);
             }
             catch (DllNotFoundException)
